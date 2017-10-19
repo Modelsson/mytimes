@@ -1,3 +1,5 @@
+/* HEADER AND NAVIGATION */
+
 header {
   display: flex;
   font-family: Verdana;
@@ -7,6 +9,8 @@ header {
   border-bottom: 1px solid black;
   align-items: center;
 }
+
+/* logo */
 
 .logo {
   display: flex;
@@ -26,6 +30,8 @@ header {
   padding-left: 15px;
 }
 
+/* navigation */
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -41,3 +47,5 @@ span.navigation {
 .navigation a {
   color: black;
 }
+
+/* MAIN CONTAINER */
