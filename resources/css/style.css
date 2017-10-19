@@ -1,6 +1,7 @@
 /* HEADER AND NAVIGATION */
 
 header {
+  background-color: white;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -8,6 +9,9 @@ header {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 /* logo */
@@ -37,11 +41,12 @@ nav {
   justify-content: flex-end;
   flex-wrap: wrap;
   width: 100%;
+  margin-right: 30px;
 }
 
 span.navigation {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
 }
 
 .navigation a {
