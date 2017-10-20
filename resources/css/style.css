@@ -20,15 +20,17 @@ header {
 
 .logo {
   display: flex;
-  align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  min-width: 200px;
+  align-items: center;
 }
 
 .mytlogo {
   display: inline-block;
-  height: 60px;
   width: 70px;
+  height: 60px;
   padding-left: 30px;
 }
 
@@ -41,11 +43,8 @@ header {
 /* navigation */
 
 nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-right: 30px;
+  display: block;
+  margin-right: 15px;
 }
 
 span.navigation {
