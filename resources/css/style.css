@@ -44,7 +44,7 @@ header {
 
 nav {
   display: block;
-  margin-right: 15px;
+  margin-right: 30px;
 }
 
 span.navigation {
@@ -61,17 +61,76 @@ span.navigation {
 #main {
   display: flex;
   position: relative;
-  top: 81px;
+  width: 1260px;
+  margin: 0 auto;
+  padding-top: 100px;
+  border: 1px solid black;
 }
 
+/*
 .column.large {
   width: 630px;
+  border: 1px solid red;
 }
 
 .column.medium {
   width: 300px;
+  border: 1px solid red;
 }
 
 .column.small {
   width: 240px;
+  border: 1px solid red;
 }
+*/
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.tunastake {
+  display: flex;
+  background-image: url("./resources/media/main_story.png");
+  border: 1px solid black;
+}
+
+.normal {
+  border: 1px solid black;
+}
+
+/* specific articles
+
+#tunasteak {}
+
+#orca {}
+
+#earth {}
+
+#burger {}
+
+#memory {}
+
+#fbi {}
+
+#cats {}
+
+#cookie {}
+
+/* specific articles */
