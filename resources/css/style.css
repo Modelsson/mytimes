@@ -44,7 +44,7 @@ header {
 
 nav {
   display: block;
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 span.navigation {
@@ -105,10 +105,21 @@ span.navigation {
   margin-right: 30px;
 }
 
-.tunastake {
-  display: flex;
-  background-image: url("./resources/media/main_story.png");
-  border: 1px solid black;
+.inpicture {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h1.inpicture {
+  background-image: url("resources\media\main_story.png");
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .normal {
