@@ -42,7 +42,7 @@ header {
 
 /* navigation */
 
-nav {
+header nav {
   display: block;
   padding-right: 30px;
 }
@@ -165,4 +165,39 @@ p {
   color: DimGray;
   height: 40px;
   border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 350px;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+footer nav {
+  padding: 15px;
+}
+
+.footertimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
 }
