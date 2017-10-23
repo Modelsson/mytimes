@@ -64,45 +64,29 @@ span.navigation {
   width: 1260px;
   margin: 0 auto;
   padding-top: 100px;
-  border: 1px solid black;
 }
 
-/*
 .column.large {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: 15px;
   width: 630px;
   border: 1px solid red;
 }
 
 .column.medium {
+  display: flex;
+  flex-flow: row wrap;
   width: 300px;
-  border: 1px solid red;
+  margin: 15px;
 }
 
 .column.small {
-  width: 240px;
-  border: 1px solid red;
-}
-*/
-
-.large {
-  width: 630px;
-  border: 1px solid black;
-}
-
-.medium {
-  width: 300px;
-  border: 1px solid black;
-}
-
-.small {
-  width: 240px;
-  border: 1px solid black;
-}
-
-.column {
   display: flex;
-  flex-direction: column;
-  margin-right: 30px;
+  flex-flow: row wrap;
+  width: 240px;
+  margin: 15px;
 }
 
 .inpicture {
@@ -112,8 +96,41 @@ span.navigation {
   color: white;
 }
 
-h1.inpicture {
-  background-image: url("resources\media\main_story.png");
+#tunasteak {
+  background-image: url("../media/main_story.png");
+  height: 300px;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+#earth {
+  background-image: url("../media/fall_story.png");
+  margin-right: 26px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+#memory {
+  background-image: url("../media/hipster_cameraman.png");
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+#cats {
+  background-image: url("../media/cat_CEO.png");
+  height: 300px;
+  text-align: center;
+}
+
+#orca {
+  margin-right: 26px;
+  width: 300px;
+}
+
+#burger {
+  width: 300px;
 }
 
 p {
@@ -121,27 +138,3 @@ p {
   font-size: 17px;
   color: black;
 }
-
-.normal {
-  border: 1px solid black;
-}
-
-/* specific articles
-
-#tunasteak {}
-
-#orca {}
-
-#earth {}
-
-#burger {}
-
-#memory {}
-
-#fbi {}
-
-#cats {}
-
-#cookie {}
-
-/* specific articles */
